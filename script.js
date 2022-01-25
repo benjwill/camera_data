@@ -55,7 +55,7 @@ function drawBox(detections) {
     const boxHeight = alignedRect._box._height;
 
     noFill();
-    stroke(161, 95, 251);
+    stroke(255, 0, 0);
     strokeWeight(2);
     rect(x, y, boxWidth, boxHeight);
   }
@@ -63,7 +63,7 @@ function drawBox(detections) {
 
 function drawLandmarks(detections) {
   noFill();
-  stroke(161, 95, 251);
+  stroke(255, 0, 0);
   strokeWeight(2);
 
   for (let i = 0; i < detections.length; i += 1) {
